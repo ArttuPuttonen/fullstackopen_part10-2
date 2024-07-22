@@ -1,14 +1,14 @@
 import React from 'react';
-import { Pressable } from 'react-native';
+import { View } from 'react-native';
 import Text from './Text';
 
 const AppBarTab = ({ title }) => {
   return (
-    <Pressable>
+    <View>
       <Text color="white" fontWeight="bold" fontSize="subheading">
         {title}
       </Text>
-    </Pressable>
+    </View>
   );
 };
 
